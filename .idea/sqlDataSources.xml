@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="aa91b824-762f-4cca-937c-47f7a5be63ca" name="posjavahibernate Mapping">
+      <data-sources db="6280b57f-c4f8-4ab6-99d1-219d59e1ae2b" />
+      <scope>
+        <node kind="database" negative="1" />
+      </scope>
+    </mapping>
+  </component>
+</project>
