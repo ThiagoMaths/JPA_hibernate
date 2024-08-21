@@ -4,7 +4,7 @@
 	
 	<persistence-unit name="pos-java-maven-hibernate">
 
-		<class>model.UsuarioPessoa</class>
+			<class>model.UsuarioPessoa</class>
 
 			<properties>
 			<!-- Dados de conexão com o banco  -->
@@ -12,8 +12,8 @@
 			<property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/posjavahibernate"/>
 			<property name="hibernate.connection.username" value="postgres"/>
 			<property name="hibernate.connection.password" value="admin"/>
-			<property name="hibernate.format_sql" value="false"/>
-			<property name="hibernate.hbm2ddl.auto" value="update"/>
+			<property name="hibernate.format_sql" value="true"/>
+			<property name="hibernate.hbm2ddl.auto" value="create"/>
 
 			</properties>
 	

@@ -14,4 +14,11 @@ public class DaoGeneric<E>{
         em.persist(entidade);
         tx.commit();
     }
+
+    public E pesquisar(E entidade){
+        Object id = HibernateUtil.getPrimaryKey(entidade);
+
+        E e = (E) em.find(entidade.getClass(), id);
+        return e;
+    }
 }
