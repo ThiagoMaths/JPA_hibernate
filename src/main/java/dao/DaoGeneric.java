@@ -10,9 +10,11 @@ public class DaoGeneric<E>{
 
     public void salvar(E entidade){
         EntityTransaction tx = em.getTransaction();
+
         tx.begin();
         em.persist(entidade);
         tx.commit();
+        em.close();
     }
 
     public E pesquisar(E entidade){
