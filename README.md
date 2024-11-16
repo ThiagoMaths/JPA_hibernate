@@ -1,1 +1,1 @@
-Módulo de JPA e Hibernate com JUnit para fazer teste. Projeto introdutório com intuito de mostrar como fazer CRUD e criar as tabelas com Hibernate e como fazer as relações entre elas.
+Desenvolvimento de módulo utilizando JPA e Hibernate com testes em JUnit. O projeto tem como objetivo demonstrar como realizar operações CRUD, mapear entidades para tabelas no banco de dados usando Hibernate e configurar relações entre elas.
